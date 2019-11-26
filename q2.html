@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.square{
+  width:50px;
+  height:50px;
+  background-color: lightblue; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/*table{
+	margin-left:300px;
+	margin-top:200px;
+}*/
+</style>
+
+</head>
+
+<body>
+<script src="q2_attempt2.js"></script>
+<table >
+	<tr>
+		<th><button onclick="tp(0,current)" class="square" id="0"> </button></th>
+		<th><button onclick="tp(1,current)" class="square" id="1"> </button></th>
+		<th><button onclick="tp(2,current)" class="square" id="2"> </button></th>
+	</tr>
+	<tr>
+		<td><button onclick="tp(3,current)" class="square" id="3"> </button></td>
+		<td><button onclick="tp(4,current)" class="square" id="4"> </button></td>
+		<td><button onclick="tp(5,current)" class="square" id="5"> </button></td>
+	</tr>
+	<tr>
+		<td><button onclick="tp(6,current)" class="square" id="6"> </button></td>
+		<td><button onclick="tp(7,current)" class="square" id="7"> </button></td>
+		<td><button onclick="tp(8,current)" class="square" id="8"> </button></td>
+	</tr>
+<br>
+<table id="score">
+	<tr>
+		<th>Sr No.</th>
+		<th>Result</th>
+		<th>Player1</th>
+		<th>Player2</th>
+	</tr>
+</table>
+<br>
+<div id="countdown"></div>
+<div id="win2"></div>
+</body>
+
+</html>
